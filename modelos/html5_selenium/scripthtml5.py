@@ -11,9 +11,9 @@ from webdriver_manager.chrome import ChromeDriverManager
 # ==============================================================================
 # CONFIGURAÇÃO DA REVISTA
 # ==============================================================================
-URL_REVISTA = "https://online.fliphtml5.com/tylge/JORNALDAREGIAO-ED1847/"
-NOME_PDF_FINAL = "jornal_da_regiao_ed1847.pdf"
-PASTA_TEMPORARIA = "paginas_jornal_da_regiao_ed1847"
+URL_REVISTA = "https://online.fliphtml5.com/nfbp/jornal-1181-oeste_site/"
+NOME_PDF_FINAL = "jorbairro.pdf"
+PASTA_TEMPORARIA = "bairro_html5_"
 # ==============================================================================
 
 HEADERS = {

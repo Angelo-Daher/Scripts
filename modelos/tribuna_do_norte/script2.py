@@ -3,8 +3,8 @@ from PIL import Image         # Biblioteca para manipulação de imagens
 from io import BytesIO        # Módulo do Python para trabalhar com entrada e saída de dados.
 import os                     # Ajuda o Python a trabalhar com arquivos, pastas e caminhos do sistema.
 
-for i in range(1, 85):
-    url = f"https://cdn-assets.ziniopro.com/var/issues/722967/a1156d1d5ec1f6569ed4f0dae32b350b/preview_image/page-{i:05d}.jpg"
+for i in range(1, 24):
+    url = f"https://tribunadonorte.com/digital/app/editions/flip/2026-09-24-Tribuna-do-Norte-24092026-QUINTA-CDA-1/Pages/page_CDA_{i}.jpg"
     response = requests.get(url)
 
     imagem = BytesIO(response.content) #Coloca na variavel imagem o conteudo da resposta, que é a imagem em bytes.

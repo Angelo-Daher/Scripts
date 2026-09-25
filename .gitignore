@@ -1,0 +1,9 @@
+venv/
+*.webp
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.zip
+*.svgz
+cookies_elmercurio.txt
